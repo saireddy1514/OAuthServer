@@ -9,7 +9,7 @@ module.exports = (passport) => {
         //Linkedin Credintials
         clientID: '867wxronify9gb',
         clientSecret: 'FiipSVo0UuVb3Gu6',
-        callbackURL: 'http://localhost:3000/auth/linkedin/callback',
+        callbackURL: 'https://o-auth-server.vercel.app/auth/linkedin/callback',
         scope: ['r_emailaddress', 'r_liteprofile'],
 
         passReqToCallback: true,

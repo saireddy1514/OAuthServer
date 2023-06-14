@@ -10,7 +10,7 @@ module.exports = (passport) => {
         //Google Credintials
         clientID: '325544379137-k54v89uln14l91i43rjjpd1e6nkr4jj1.apps.googleusercontent.com',
         clientSecret: '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',
-        callbackURL: 'http://localhost:3000/auth/google/callback',
+        callbackURL: 'https://o-auth-server.vercel.app/auth/google/callback',
         passReqToCallback: true,
       },
 
