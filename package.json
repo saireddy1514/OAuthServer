@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "dependencies": {
+    "cookie-session": "^2.0.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.5.1",
+    "express-session": "^1.17.3",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "passport": "^0.6.0",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-linkedin-oauth2": "^2.0.0",
+    "path": "^0.12.7",
+    "socket-rate-limiter": "^1.0.41",
+    "socket.io": "^4.2.0"
+  }
+}
