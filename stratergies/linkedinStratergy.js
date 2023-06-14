@@ -7,9 +7,9 @@ module.exports = (passport) => {
     new LinkedinStrategy(
       {
         //Linkedin Credintials
-        clientID: process.env.LINKEDIN_CLIENT_ID,
-        clientSecret: process.env.LINKEDIN_CLIENT_SECRET,
-        callbackURL: process.env.LINKEDIN_CLIENT_URL,
+        clientID: '867wxronify9gb',
+        clientSecret: 'FiipSVo0UuVb3Gu6',
+        callbackURL: 'http://localhost:3000/auth/linkedin/callback',
         scope: ['r_emailaddress', 'r_liteprofile'],
 
         passReqToCallback: true,

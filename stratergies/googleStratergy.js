@@ -8,9 +8,9 @@ module.exports = (passport) => {
     new GoogleStrategy(
       {
         //Google Credintials
-        clientID: process.env.GOOGLE_CLIENT_ID,
-        clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-        callbackURL: process.env.GOOGLE_CLIENT_URL,
+        clientID: '325544379137-k54v89uln14l91i43rjjpd1e6nkr4jj1.apps.googleusercontent.com',
+        clientSecret: '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',
+        callbackURL: 'http://localhost:3000/auth/google/callback',
         passReqToCallback: true,
       },
 

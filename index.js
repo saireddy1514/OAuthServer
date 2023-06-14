@@ -106,7 +106,7 @@ passport.deserializeUser(function (obj, done) {
 });
 
 //Stratergies Importing
-require("./stratergies/facebookStratergy")(passport);
+// require("./stratergies/facebookStratergy")(passport);
 require("./stratergies/linkedinStratergy")(passport);
 require("./stratergies/googleStratergy")(passport);
 
